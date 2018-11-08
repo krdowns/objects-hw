@@ -5,6 +5,15 @@
 	and a makeNoise property that prints out their noise.
 */
 
+var dog = {
+	name : "oreo",
+	noise : "bark",
+
+	makeNoise = function() {
+		console.log(this.noise)
+	}
+}
+
 /*
 	Part 2: Let's use an array to hold all of these animals.
 	Create a new variable, animals, that contains the 4 animals we just created.
